@@ -18,10 +18,11 @@ pipeline{
         echo 'Deployment success'
       }
     }
+  }
     post{
       failure{
         echo 'Pipeline failed'
       }
     }
   }
-}
+
