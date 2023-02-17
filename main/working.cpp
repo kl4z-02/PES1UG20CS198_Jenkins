@@ -1,6 +1,7 @@
-#include <stdio>
+#include <iostream>
+using namespace std;
 
-void main(){
-  cout<<"WORKING FILE IS WORKING";  
-  
+int main(void) {
+  cout << "THIS IS WORKING!!!";
+  return 0;
 }
