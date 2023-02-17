@@ -1,7 +1,7 @@
 all: hello_exec working
 
-hello_exec: hello.c
-	g++ -o hello_exec hello.c
+hello_exec: hello.cpp
+	g++ -o hello_exec hello.cpp
 
-working: working.c
-	g++ -o working working.c
+working: working.cpp
+	g++ -o working working.cpp
